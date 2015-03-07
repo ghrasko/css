@@ -1,0 +1,55 @@
+/*
+ CSS training
+*/
+
+p {
+	margin-bottom: 1.5em;
+}
+
+/* az oldal elejére visszaugrató linkek */
+a.jump-up {
+	text-decoration: none;
+	background: wheat;
+	color: red;
+	font-size: smaller;
+}
+
+a.jump-up:hover {
+	background: tan;
+}
+
+/* főmenü */
+#main-menu {
+	text-align: center;
+	font-size: 1.0em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#main-menu ul {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+#main-menu ul li {
+	display: inline;
+}
+
+#main-menu ul li a, #main-menu ul li a:visited {
+    float: left;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 0.2em 0.6em;
+    margin-right: 10px;
+	margin-bottom: 5px;
+	border-radius: 8px;
+}
+
+#main-menu ul li a:hover {
+	background-color: fuchsia;
+}
+

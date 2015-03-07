@@ -1,0 +1,58 @@
+/*
+ CSS training
+*/
+
+p {
+	margin-bottom: 1.5em;
+	text-align: left;	/* justified, right, left, center */
+}
+
+/* az oldal elejére visszaugrató linkek */
+a.jump-up {
+	text-decoration: none;
+	background: wheat;
+	color: red;
+	font-size: smaller;
+}
+
+a.jump-up:hover {
+	background: tan;
+}
+
+a.jump-up:visited {
+	color: black;
+}
+
+/* főmenü */
+#main-menu {
+    float: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	font-size: 1.2em;
+}
+#main-menu nav {
+    float: left;
+}
+
+#main-menu a, #main-menu a:visited {
+    float: left;
+    width: 8em;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 0.2em 0.6em;
+    margin-right: 10px;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#main-menu a:hover {
+	background-color: fuchsia;
+}
+
+#copyright {
+	font-style: italic;
+	font-size: 0.8em;
+}
